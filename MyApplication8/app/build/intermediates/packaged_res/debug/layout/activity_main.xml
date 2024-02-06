@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8e6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#3498db"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Gesture App"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/gestureButton"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:text="Gesture button"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffffff"
+        android:elevation="4dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
